@@ -19,6 +19,7 @@ end
 
 gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
+gem 'rails_serve_static_assets'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
