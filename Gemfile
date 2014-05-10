@@ -7,6 +7,7 @@ gem 'rails', '4.0.2'
 gem 'sqlite3'
 
 gem 'carrierwave'
+gem 'mini_magick', '3.5.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -45,3 +46,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'devise'
+gem 'gravtastic'
+
