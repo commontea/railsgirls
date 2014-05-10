@@ -12,6 +12,11 @@ group :production do
   gem 'rails_12factor'
 end
 
+#rspec 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0.beta'
+end
+
 gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
 
@@ -55,4 +60,5 @@ end
 
 gem 'devise'
 gem 'gravtastic'
+gem 'rspec'
 
